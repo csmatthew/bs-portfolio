@@ -17,12 +17,24 @@ body {
 h1,
 h2 {
     font-family: "DM Serif Display", serif;
-    background-color: #a4c2d1; /* egg blue */
+    color: #184f63; /* dark-blue */
 }
 
 .sharp-corners,
 .sharp-corners * {
     border-radius: 0;
+}
+
+/* Buttons */
+
+.custom-button {
+    background-color: #1f7798;
+    border: #1f7798
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a
 }
 
 /* About section */
@@ -74,5 +86,5 @@ h2 {
     /* Fixes all portfolio cards being too tall on xl screens */
     #portfolio .card-text {
         min-height: auto;
-    }
+    }    
 }
